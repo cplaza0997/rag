@@ -3,6 +3,7 @@
 This project demonstrates a simple implementation of **Retrieval-Augmented Generation (RAG)** using **LangChain**, with support for models from **Hugging Face** and **Ollama**.
 
 ![RAG Demo](src/img/rag-demo.png)
+Previous output was tested with content of [Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)
 
 RAG combines information retrieval with a language model to provide answers grounded in external knowledge — perfect for answering questions based on custom PDFs, documents, or datasets.
 
