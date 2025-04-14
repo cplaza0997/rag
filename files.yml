@@ -1,0 +1,13 @@
+docx:
+    - "./docs/almacenamiento vectorial.docx"
+    - "./docs/El tiempo.docx"
+txt: 
+    - ./docs/llm.txt
+
+html:
+    - https://en.wikipedia.org/wiki/Large_language_model
+    - https://en.wikipedia.org/wiki/Earth
+    
+pdf:
+    - https://www.gutenberg.org/files/19967/19967-pdf.pdf
+    - https://www.gutenberg.org/files/32624/32624-pdf.pdf

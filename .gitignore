@@ -1,0 +1,7 @@
+.virtual_documents*
+.ipynb_checkpoints*
+chroma_db*
+.~*
+*.ipynb*
+*__pycache__*
+*.pyc*
