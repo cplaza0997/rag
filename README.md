@@ -35,7 +35,7 @@ Install [Ollama](https://ollama.com) (if not already installed) for testing:
 
 Pull a model to use with Ollama (e.g., Mistral):
 ```bash
-ollama pull mistral
+ollama run llama3.2:3b
 ```
 
 
