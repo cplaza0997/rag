@@ -1,5 +1,8 @@
-Large Language Models (LLMs) are advanced artificial intelligence systems trained on vast amounts of text data. They are capable of understanding, generating, and manipulating human language in a coherent and context-aware manner.
+Este archivo contiene informacion de estudiantes matriculados en la universidad de cuenca
 
-Popular LLMs include OpenAI's GPT series, Meta's LLaMA models, and Google's PaLM. These models are used in applications such as chatbots, translation, summarization, code generation, and much more.
-
-LLMs rely on architectures like Transformers, which allow them to process input data in parallel and capture long-range dependencies within text.
+periodo marzo 2013 - agosto 2013:
+    numero de estudiantes: 15001
+periodo septiembre 2013 - febrero 2014:
+    numero de estudiantes: 15002
+periodo marzo 2014 - agosto 2014:
+    numero de estudiantes: 15003

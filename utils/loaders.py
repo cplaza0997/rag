@@ -31,7 +31,20 @@ def docx_loader(docx):
     return loader.load()
 
 def collect(docs):
-    collection = web_loader(urls=docs['html'])
+    collection = None # web_loader(urls=docs['html'])
+    collection = collection if collection else []
+    funcs={'docx':docx_loader, 'pdf':pdf_loader, 'txt':txt_loader}
+    for typ, sources_ in docs.items():
+        try:
+            for source in sources_:
+                doc = funcs[typ](source)
+                collection+=doc
+        except:
+            pass
+    return collection
+
+def _collect(docs):
+    collection = None # web_loader(urls=docs['html'])
     collection = collection if collection else []
     funcs={'docx':docx_loader, 'pdf':pdf_loader, 'txt':txt_loader}
     for typ, func in funcs.items():

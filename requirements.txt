@@ -1,0 +1,26 @@
+langchain==0.3.26
+langchain-chroma==0.2.4
+langchain-community==0.3.26
+langchain-core==0.3.67
+langchain-huggingface==0.3.0
+langchain-ollama==0.3.3
+langchain-text-splitters==0.3.8
+
+# Gradio para UI
+gradio==4.44.1 
+
+# Vector DB y procesamiento documentos
+chromadb>=1.0.9
+pymupdf
+docx2txt
+pypdf==4.3.1
+pydantic==2.9.1
+
+
+# Hugging Face transformers y ecosistema
+transformers
+sentence-transformers
+datasets
+huggingface-hub
+accelerate
+

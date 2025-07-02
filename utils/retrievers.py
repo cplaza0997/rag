@@ -1,16 +1,19 @@
 from langchain.retrievers.multi_query import MultiQueryRetriever
 
-
-def get_retriever(vdb, llm):
+def get_retriever(vdb, llm, search_kwargs=None):
     """
-    Returns an retriever object.
+    Returns a retriever object.
 
     Args:
-        vdb (Vector Store): This is a vector database where documents are stored.
-        llm (LMM): Large Language model.
+        vdb (Vector Store): Vector database.
+        llm (LLM): Large Language Model.
+        search_kwargs (dict, optional): kwargs para la búsqueda en el vector DB (ej: {"k": 5})
 
     Returns:
         retriever: Retriever.
     """
-    retriever = MultiQueryRetriever.from_llm(retriever=vdb.as_retriever(), llm=llm)
+    retriever = MultiQueryRetriever.from_llm(
+        retriever=vdb.as_retriever(search_kwargs=search_kwargs),
+        llm=llm
+    )
     return retriever
